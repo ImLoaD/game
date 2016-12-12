@@ -1,0 +1,17 @@
+<div id="content" ng-controller="GameController as ctrl">
+  <!-- Переменная GameController теперь ctrl -->
+  <div id="heading" class="row">
+    <h1 id="title" class="row">ng-2048 игра </h1>
+    <div class="scores-container">
+      <div class="score-container">{ctrl.game.currentScore}</div>
+      <div class="best-container">{ctrl.game.highScore}</div>
+    </div>
+  </div>
+</div>
+<!-- instructions -->
+<div id="game-container">
+  <div class="row" grid="" ng-model="ctrl.game">
+
+  </div>
+  <!--  -->
+</div>
